@@ -5,6 +5,7 @@ import { webProjects } from "./data/webProject";
 import { designProjects } from "./data/designProject";
 import me from "/me.jpg";
 import InteractiveParticles from "./components/ParticleBackground";
+import { skills } from "./data/skill";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<"web" | "design">("web");
@@ -35,9 +36,10 @@ export default function App() {
             />
           </motion.div>
 
-          <h1 className="text-white font-extrabold text-3xl sm:text-4xl drop-shadow-md">
+          <h1 className="text-5xl sm:text-6xl font-black text-transparent h-20 bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 animate-gradient-x">
             Tegar Setio
           </h1>
+
           <p className="text-gray-300 mt-2 text-lg sm:text-xl">
             Full Stack Developer <span className="mx-1">•</span> UI/UX Designer
           </p>
@@ -55,8 +57,39 @@ export default function App() {
             </SocialIcon>
           </div>
 
+          {/* Skill Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2, duration: 1 }}
+            className="w-full px-8 py-16"
+          >
+            <h3 className="text-center text-2xl font-semibold mb-10">
+              Technologies I Use
+            </h3>
+            <div className="flex justify-center items-center flex-wrap gap-6">
+              {skills.map((skill, index) => {
+                const Icon = skill.icon;
+                return (
+                  <motion.div
+                    key={index}
+                    whileHover={{ scale: 1.15 }}
+                    className="w-24 h-24 flex flex-col items-center justify-center rounded-xl border border-white/20 bg-white/10 hover:bg-white/20 transition"
+                  >
+                    <Icon
+                      className="text-3xl mb-2"
+                      style={{ color: skill.color }}
+                    />
+
+                    <span className="text-sm text-white/70">{skill.name}</span>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </motion.div>
+
           {/* Tabs */}
-          <div className="mt-8 bg-white/20 backdrop-blur-md p-2 rounded-full border border-white/30 flex gap-2">
+          <div className="bg-white/20 backdrop-blur-md p-2 rounded-full border border-white/30 flex gap-2">
             <TabButton
               label="Web Projects"
               active={activeTab === "web"}
