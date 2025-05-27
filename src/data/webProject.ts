@@ -12,6 +12,10 @@ export const webProjects = [
     link: "https://sineasmov.com/",
   },
   {
+    title: "Nemo Security",
+    link: "https://nemo-security.netlify.app/",
+  },
+  {
     title: "SPK Bug",
     link: "https://clone-spk-bug-fixing.vercel.app/dashboard",
   },
