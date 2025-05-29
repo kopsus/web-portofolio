@@ -1,5 +1,13 @@
 export const webProjects = [
   {
+    title: "Web Sekolah",
+    link: "https://petrus-ende.putra-tunggal.my.id/",
+  },
+  {
+    title: "POS Kasir",
+    link: "https://loempia-bom.putra-tunggal.my.id/",
+  },
+  {
     title: "Sambal bakar",
     link: "https://sambalbakaronfire.com/",
   },
