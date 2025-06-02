@@ -4,7 +4,7 @@ export const webProjects = [
     link: "https://petrus-ende.putra-tunggal.my.id/",
   },
   {
-    title: "POS Kasir",
+    title: "POS",
     link: "https://loempia-bom.putra-tunggal.my.id/",
   },
   {
