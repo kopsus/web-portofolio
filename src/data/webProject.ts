@@ -25,7 +25,7 @@ export const webProjects = [
   },
   {
     title: "SPK Bug",
-    link: "https://clone-spk-bug-fixing.vercel.app/dashboard",
+    link: "https://spk-bug-fixing.putra-tunggal.my.id/",
   },
   {
     title: "Saldo Game",
