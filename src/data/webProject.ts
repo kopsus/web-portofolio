@@ -1,5 +1,9 @@
 export const webProjects = [
   {
+    title: "Beauty Salon",
+    link: "https://anjani-beauty-center.my.id"
+  },
+  {
     title: "Web Sekolah",
     link: "https://petrus-ende.putra-tunggal.my.id/",
   },
