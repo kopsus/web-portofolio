@@ -1,5 +1,9 @@
 export const designProjects = [
   {
+    title: "Gascomp",
+    link: "https://www.figma.com/proto/qP3UHMCZZuiXXsxpGDp6SQ/Gascomp?node-id=95-633&starting-point-node-id=95%3A633",
+  },
+  {
     title: "Beauty salon",
     link: "https://www.figma.com/proto/7UjqDopF9T3hpw6MQovWAc/Untitled?node-id=230-2621&starting-point-node-id=230%3A2621",
   },
