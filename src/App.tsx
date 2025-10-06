@@ -131,43 +131,43 @@ export default function App() {
   );
 }
 
-function SocialIcon({
-  href,
-  children,
-}: {
-  href: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <a
-      href={href}
-      target="_blank"
-      className="text-white/70 hover:text-white text-2xl transition hover:scale-105 duration-300"
-    >
-      {children}
-    </a>
-  );
-}
+// function SocialIcon({
+//   href,
+//   children,
+// }: {
+//   href: string;
+//   children: React.ReactNode;
+// }) {
+//   return (
+//     <a
+//       href={href}
+//       target="_blank"
+//       className="text-white/70 hover:text-white text-2xl transition hover:scale-105 duration-300"
+//     >
+//       {children}
+//     </a>
+//   );
+// }
 
-function TabButton({
-  label,
-  active,
-  onClick,
-}: {
-  label: string;
-  active: boolean;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      onClick={onClick}
-      className={`px-6 py-2 rounded-full text-sm font-semibold cursor-pointer transition-all ${
-        active
-          ? "bg-indigo-500 text-white shadow-lg"
-          : "text-white/70 hover:bg-indigo-100/20"
-      }`}
-    >
-      {label}
-    </button>
-  );
-}
+// function TabButton({
+//   label,
+//   active,
+//   onClick,
+// }: {
+//   label: string;
+//   active: boolean;
+//   onClick: () => void;
+// }) {
+//   return (
+//     <button
+//       onClick={onClick}
+//       className={`px-6 py-2 rounded-full text-sm font-semibold cursor-pointer transition-all ${
+//         active
+//           ? "bg-indigo-500 text-white shadow-lg"
+//           : "text-white/70 hover:bg-indigo-100/20"
+//       }`}
+//     >
+//       {label}
+//     </button>
+//   );
+// }
