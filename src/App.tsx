@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaWhatsapp, FaEnvelope, FaGithub } from "react-icons/fa";
+// import { FaWhatsapp, FaEnvelope, FaGithub } from "react-icons/fa";
 import { webProjects } from "./data/webProject";
 import { designProjects } from "./data/designProject";
 import me from "/me.jpg";
@@ -149,25 +149,25 @@ export default function App() {
 //   );
 // }
 
-// function TabButton({
-//   label,
-//   active,
-//   onClick,
-// }: {
-//   label: string;
-//   active: boolean;
-//   onClick: () => void;
-// }) {
-//   return (
-//     <button
-//       onClick={onClick}
-//       className={`px-6 py-2 rounded-full text-sm font-semibold cursor-pointer transition-all ${
-//         active
-//           ? "bg-indigo-500 text-white shadow-lg"
-//           : "text-white/70 hover:bg-indigo-100/20"
-//       }`}
-//     >
-//       {label}
-//     </button>
-//   );
-// }
+function TabButton({
+  label,
+  active,
+  onClick,
+}: {
+  label: string;
+  active: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      className={`px-6 py-2 rounded-full text-sm font-semibold cursor-pointer transition-all ${
+        active
+          ? "bg-indigo-500 text-white shadow-lg"
+          : "text-white/70 hover:bg-indigo-100/20"
+      }`}
+    >
+      {label}
+    </button>
+  );
+}
