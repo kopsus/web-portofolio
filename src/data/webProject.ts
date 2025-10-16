@@ -1,5 +1,9 @@
 export const webProjects = [
   {
+    title: "DNS Monitoring",
+    link: "https://zoneteleport.netlify.app/",
+  },
+  {
     title: "Nemo Security",
     link: "https://nemo-security.netlify.app/",
   },
