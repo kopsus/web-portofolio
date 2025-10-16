@@ -1,59 +1,43 @@
 export const webProjects = [
   {
-    title: "Beauty Salon",
-    link: "https://anjani-beauty-center.my.id"
+    title: "Nemo Security",
+    link: "https://nemo-security.netlify.app/",
+  },
+  {
+    title: "XGizi",
+    link: "https://xgizi.vercel.app"
   },
   {
     title: "Web Sekolah",
-    link: "https://petrus-ende.putra-tunggal.my.id/",
+    link: "https://github.com/kopsus/full-stack-next-js-web-school",
   },
   {
     title: "POS",
-    link: "https://loempia-bom.putra-tunggal.my.id/",
+    link: "https://github.com/kopsus/full-stack-web-pos",
   },
-  {
-    title: "Sambal bakar",
-    link: "https://sambalbakaronfire.com/",
-  },
+  // {
+  //   title: "Sambal bakar",
+  //   link: "https://sambalbakaronfire.com/",
+  // },
   {
     title: "Gascomp",
     link: "https://gascompsuperlock.com/",
+  },
+  {
+    title: "Beauty Salon",
+    link: "https://anjani-beauty-center.my.id"
   },
   {
     title: "Sineasmov",
     link: "https://sineasmov.com/",
   },
   {
-    title: "Nemo Security",
-    link: "https://nemo-security.netlify.app/",
-  },
-  {
     title: "SPK Bug",
-    link: "https://spk-bug-fixing.putra-tunggal.my.id/",
-  },
-  {
-    title: "Saldo Game",
-    link: "https://saldo-game.vercel.app/",
-  },
-  {
-    title: "Intriq",
-    link: "https://intriq.vercel.app/",
-  },
-  {
-    title: "Duta Besar",
-    link: "https://duta-besar.vercel.app/",
-  },
-  {
-    title: "Bina Institusi",
-    link: "https://bina-institusi.vercel.app/",
+    link: "https://github.com/kopsus/spk-bug-fixing",
   },
   {
     title: "Surfing",
     link: "https://surfing-sage.vercel.app/",
-  },
-  {
-    title: "Zengxin",
-    link: "https://zengxin-technology.gascompsuperlock.com/",
   },
   {
     title: "Colent",
@@ -78,5 +62,25 @@ export const webProjects = [
   {
     title: "wedding victoria",
     link: "https://wedding-invitation-ivona.vercel.app/victoria",
+  },
+  {
+    title: "Bina Institusi",
+    link: "https://bina-institusi.vercel.app/",
+  },
+  {
+    title: "Zengxin",
+    link: "https://zengxin-technology.gascompsuperlock.com/",
+  },
+  {
+    title: "Duta Besar",
+    link: "https://duta-besar.vercel.app/",
+  },
+  {
+    title: "Saldo Game",
+    link: "https://saldo-game.vercel.app/",
+  },
+  {
+    title: "Intriq",
+    link: "https://intriq.vercel.app/",
   },
 ];
