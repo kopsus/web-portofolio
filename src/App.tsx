@@ -131,23 +131,23 @@ export default function App() {
   );
 }
 
-// function SocialIcon({
-//   href,
-//   children,
-// }: {
-//   href: string;
-//   children: React.ReactNode;
-// }) {
-//   return (
-//     <a
-//       href={href}
-//       target="_blank"
-//       className="text-white/70 hover:text-white text-2xl transition hover:scale-105 duration-300"
-//     >
-//       {children}
-//     </a>
-//   );
-// }
+function SocialIcon({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      className="text-white/70 hover:text-white text-2xl transition hover:scale-105 duration-300"
+    >
+      {children}
+    </a>
+  );
+}
 
 function TabButton({
   label,
