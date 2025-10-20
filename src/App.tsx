@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaWhatsapp, FaEnvelope, FaGithub } from "react-icons/fa";
+// import { FaWhatsapp, FaEnvelope, FaGithub } from "react-icons/fa";
 import { webProjects } from "./data/webProject";
 import { designProjects } from "./data/designProject";
 import me from "/me.jpg";
@@ -45,7 +45,7 @@ export default function App() {
           </p>
 
           {/* Social */}
-          <div className="flex gap-6 mt-6">
+          {/* <div className="flex gap-6 mt-6">
             <SocialIcon href="https://wa.me/0882005090497">
               <FaWhatsapp />
             </SocialIcon>
@@ -55,7 +55,7 @@ export default function App() {
             <SocialIcon href="https://github.com/kopsus">
               <FaGithub />
             </SocialIcon>
-          </div>
+          </div> */}
 
           {/* Skill Section */}
           <motion.div
@@ -131,23 +131,23 @@ export default function App() {
   );
 }
 
-function SocialIcon({
-  href,
-  children,
-}: {
-  href: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <a
-      href={href}
-      target="_blank"
-      className="text-white/70 hover:text-white text-2xl transition hover:scale-105 duration-300"
-    >
-      {children}
-    </a>
-  );
-}
+// function SocialIcon({
+//   href,
+//   children,
+// }: {
+//   href: string;
+//   children: React.ReactNode;
+// }) {
+//   return (
+//     <a
+//       href={href}
+//       target="_blank"
+//       className="text-white/70 hover:text-white text-2xl transition hover:scale-105 duration-300"
+//     >
+//       {children}
+//     </a>
+//   );
+// }
 
 function TabButton({
   label,

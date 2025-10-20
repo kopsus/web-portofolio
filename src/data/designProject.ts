@@ -1,5 +1,9 @@
 export const designProjects = [
   {
+    title: "DNS Monitoring",
+    link: "https://www.figma.com/proto/mSKQn7vzz9jFCPPKnJlLZM/ZoneTeleport?node-id=1-2",
+  },
+  {
     title: "Gascomp",
     link: "https://www.figma.com/proto/qP3UHMCZZuiXXsxpGDp6SQ/Gascomp?node-id=95-633&starting-point-node-id=95%3A633",
   },
