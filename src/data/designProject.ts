@@ -1,5 +1,9 @@
 export const designProjects = [
   {
+    title: "Takjub Travel",
+    link: "https://www.figma.com/proto/CRR677LeRB5DtIOFJYGI2B/TakjubIndonesia?node-id=1-5&starting-point-node-id=1%3A5",
+  },
+  {
     title: "DNS Monitoring",
     link: "https://www.figma.com/proto/mSKQn7vzz9jFCPPKnJlLZM/ZoneTeleport?node-id=1-2",
   },
