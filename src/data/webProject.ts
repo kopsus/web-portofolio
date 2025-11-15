@@ -1,7 +1,19 @@
 export const webProjects = [
   {
+    title: "De Terrace Jatibening",
+    link: "https://rumahmu.my.id",
+  },
+  {
+    title: "Social Enterpreneur",
+    link: "https://kacamatagratis.com",
+  },
+  {
+    title: "Walink",
+    link: "https://walinkk.netlify.app",
+  },
+  {
     title: "DNS Monitoring",
-    link: "https://zoneteleport.netlify.app/",
+    link: "https://kopsusteleport.netlify.app",
   },
   {
     title: "Nemo Security",
