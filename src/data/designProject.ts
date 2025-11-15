@@ -1,5 +1,9 @@
 export const designProjects = [
   {
+    title: "Kinanta",
+    link: "https://www.figma.com/proto/GbFS5VbYEqfdISBo4Z91Zy/KINANTA?node-id=1-2&starting-point-node-id=1%3A2",
+  },
+  {
     title: "Takjub Travel",
     link: "https://www.figma.com/proto/CRR677LeRB5DtIOFJYGI2B/TakjubIndonesia?node-id=1-5&starting-point-node-id=1%3A5",
   },
