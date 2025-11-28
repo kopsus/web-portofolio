@@ -28,8 +28,8 @@ export const webProjects = [
     link: "https://github.com/kopsus/full-stack-next-js-web-school",
   },
   {
-    title: "POS",
-    link: "https://github.com/kopsus/full-stack-web-pos",
+    title: "Loempia Bom POS",
+    link: "https://loempia-bom.putra-tunggal.my.id",
   },
   // {
   //   title: "Sambal bakar",
