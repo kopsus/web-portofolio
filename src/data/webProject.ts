@@ -24,8 +24,8 @@ export const webProjects = [
     link: "https://xgizi.vercel.app"
   },
   {
-    title: "Web Sekolah",
-    link: "https://github.com/kopsus/full-stack-next-js-web-school",
+    title: "School Management",
+    link: "https://petrus-ende.putra-tunggal.my.id",
   },
   {
     title: "Loempia Bom POS",
