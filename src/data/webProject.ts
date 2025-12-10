@@ -1,5 +1,9 @@
 export const webProjects = [
   {
+    title: "BrightMinds Legal",
+    link: "https://brightmindslegaledu.com",
+  },
+  {
     title: "De Terrace Jatibening",
     link: "https://rumahmu.my.id",
   },
