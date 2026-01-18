@@ -1,7 +1,19 @@
 export const webProjects = [
   {
-    title: "BrightMinds Legal",
-    link: "https://brightmindslegaledu.com",
+    title: "Multimeter Asia",
+    link: "https://multimeterasia.com",
+  },
+  {
+    title: "Asia Multimeter",
+    link: "https://asiamultimeter.com",
+  },
+  {
+    title: "Tour & Traveller",
+    link: "https://javaroutes.com",
+  },
+  {
+    title: "Property",
+    link: "https://jualanrumahmakassar.com",
   },
   {
     title: "De Terrace Jatibening",
