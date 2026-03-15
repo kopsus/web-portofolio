@@ -1,5 +1,13 @@
 export const designProjects = [
   {
+    title: "Rajapay",
+    link: "https://www.figma.com/proto/67TQ9k5CYFpRfvFOpFXtOn/Rajapay?node-id=4402-2543&t=AepyU2Kj0DT5Ey22-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4402%3A2543",
+  },
+  {
+    title: "Assamedik",
+    link: "https://www.figma.com/proto/a94qvRz7FITPp61LcU95JK/Untitled?t=002tHkbv7vpfQWwp-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-2711",
+  },
+  {
     title: "Kinanta",
     link: "https://www.figma.com/proto/GbFS5VbYEqfdISBo4Z91Zy/KINANTA?node-id=1-2&starting-point-node-id=1%3A2",
   },
