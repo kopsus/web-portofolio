@@ -1,5 +1,13 @@
 export const webProjects = [
   {
+    title: "Rajapay",
+    link: "https://rajapay.rayaku.com",
+  },
+  {
+    title: "Assamedik",
+    link: "https://assamedik.rayaku.com",
+  },
+  {
     title: "Multimeter Asia",
     link: "https://multimeterasia.com",
   },
@@ -45,7 +53,7 @@ export const webProjects = [
   },
   {
     title: "Loempia Bom POS",
-    link: "https://loempia-bom.putra-tunggal.my.id",
+    link: "http://loempia.rayaku.com",
   },
   // {
   //   title: "Sambal bakar",
