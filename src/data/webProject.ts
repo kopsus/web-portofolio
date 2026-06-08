@@ -1,5 +1,17 @@
 export const webProjects = [
   {
+    title: "Seim Store",
+    link: "https://seimstore.cloud",
+  },
+  {
+    title: "business legality",
+    link: "https://brightmindslegalbusiness.com",
+  },
+  {
+    title: "J&T Cargo",
+    link: "https://jnt-cargo.rayaku.com/",
+  },
+  {
     title: "Rajapay",
     link: "https://rajapay.rayaku.com",
   },
