@@ -4,6 +4,11 @@ export const webProjects = [
     link: "https://seimstore.cloud",
   },
   {
+    title: "Legal Education",
+    link: "https://brightmindslegaledu.com",
+  },
+  },
+  {
     title: "business legality",
     link: "https://brightmindslegalbusiness.com",
   },
